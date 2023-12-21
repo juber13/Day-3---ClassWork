@@ -1,7 +1,7 @@
-
+import { Link } from "react-router-dom"
 const Header = () => {
     return (
-        <header className="w-full bg-black text-white h-15 p-5 items-center fixed z-10">
+        <header className="w-full bg-black text-white p-5 items-center sticky z-10 top-0">
           <nav className="flex justify-between w-4/5  m-auto items-center">
             <div className="logo">
                 <ul className="flex gap-2 items-center">
@@ -11,11 +11,11 @@ const Header = () => {
             </div>
             <div className="center">
                 <ul className="flex gap-6 font-medium">
-                    <li className="text-blue-500"><a href="#">Home</a></li>
-                    <li><a href="#">Quote</a></li>
-                    <li><a href="#">Restaurents</a></li>
-                    <li><a href="#">Foods</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li className="text-blue-500"><Link to="/">Home</Link></li>
+                    <li><Link to="/quote">Quote</Link></li>
+                    <li><Link to="/Restaurents">Restaurents</Link></li>
+                    <li><Link to="/Foods">Foods</Link></li>
+                    <li><Link to="/Contact">Contact</Link></li>
                 </ul>
             </div>
             <div className="right">

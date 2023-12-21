@@ -34,6 +34,10 @@ const Footer = () => {
           <li><GiCloverSpiked /></li>
         </ul>
 
+        <div className="info">
+          Love and made by ❤️   Juber
+        </div>
+
       </div>
     </div>
   )

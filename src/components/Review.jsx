@@ -1,8 +1,8 @@
 
 const Review = (props) => {
     return (
-        <div className='review mt-10 w-4/5 m-auto flex flex-col gap-2'>
-            <div className="description w-[400px] h-auto bg-gray-100 rounded-lg p-4">
+        <div className='review mt-10 w-full m-auto flex flex-col gap-2'>
+            <div className="description h-auto bg-gray-100 rounded-lg p-4">
                 {props.title}
             </div>
 
