@@ -13,9 +13,9 @@ const Header = () => {
                 <ul className="flex gap-6 font-medium">
                     <li className="text-blue-500"><Link to="/">Home</Link></li>
                     <li><Link to="/quote">Quote</Link></li>
-                    <li><Link to="/Restaurents">Restaurents</Link></li>
+                    <li><Link to="/restaurent">Restaurents</Link></li>
                     <li><Link to="/Foods">Foods</Link></li>
-                    <li><Link to="/Contact">Contact</Link></li>
+                    <li><Link to="/contact">Contact</Link></li>
                 </ul>
             </div>
             <div className="right">
